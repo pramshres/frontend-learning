@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: "Rajdhani";
+    background-color: #0d0f0e;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.hero-section {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url("images/night-city.png");
+    background-size: cover;
+    background-position: center;
+    color: #fbef22;
+}
+
+#night-city-heading {
+    margin: 150px 0 10px 0;
+    background: #0d0f0e;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#night-city-subheading {
+    background: #0d0f0e;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.activities-section {
+    background-color: #0d0f0e;
+    color: white;
+    height: auto;
+    padding: 25px 50px;
+    border-bottom: 2px solid #fbef22;
+}
+
+.activities-section h2 {
+    padding-bottom: 20px;
+    text-align: center;
+    color: #fbef22;
+}
+
+.activities-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 60px;
+}
+
+.activities-container img {
+    height: auto;
+    max-height:225px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mayor-section {
+    background-color: #0d0f0e;;
+    padding: 50px;
+}
+
+#lucius {
+    height: auto;
+    max-height: 200px;
+}
+
+.mayor-card {
+    background-color: #fbef22;
+    border: 2px solid #fbef22;
+    color: black;
+    max-width: 500px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#mayor-notes h2, #mayor-notes p {
+    padding: 10px 20px 5px 20px;
+}
+
+.navbar:hover {
+    color: #29ffff
+}
