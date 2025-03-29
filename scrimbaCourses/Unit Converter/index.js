@@ -11,6 +11,9 @@ const lengthPara = document.getElementById("length-p")
 const volumePara = document.getElementById("volume-p")
 const massPara = document.getElementById("mass-p")
 
+//Render at beginning
+convert()
+
 function convert() {
     let unit = inputEl.value
     lengthPara.textContent = 
