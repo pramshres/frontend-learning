@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.logo {
+    width: 120px; 
+}
+
+.profile-picture {
+    border-radius: 50%;
+    height: 34px;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 8px;
+    border-bottom: 1px solid grey
+}
+
+header .profile-picture {
+    margin-top: 10px
+}
+
+.post-author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.post-image {
+    width: 100%;
+    display: block;
+}
+
+.name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.location {
+    margin: 0;
+    font-size: 0.75rem;
+}
+
+.post-reactions {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-top: 0;
+
+}
+
+.post-reactions img {
+    height: 20px;
+    padding-right: 8px;
+}
+
+.post-likes {
+    margin: 0;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.post-comments {
+    margin: 0; 
+    padding: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.filler {
+    height: 20px;
+    background-color: #EDEDED;
+}
+
+header, .post-author, .profile-info, .post-reactions, .post-likes, .post-comments {
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+    body {
+        max-width: 500px;
+        margin: 0 auto;
+        background-color: #EDEDED;
+    }
+}
